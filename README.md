@@ -42,6 +42,20 @@ The ready-to-install APK is in this repository:
 The file name must stay `HondaAppCenter_A1.apk`. The head unit installs nothing else from a USB
 stick.
 
+### Honda Permissions app (by S_Mike)
+
+AA Sound needs an entry in the head unit's whitelist, which is created with S_Mike's
+"Honda Permissions" app (`com.xda_user.honda.permissions`, version 1.1). For convenience an
+unmodified copy is included here:
+[`third-party/honda-permissions/HondaAppCenter_A1.apk`](third-party/honda-permissions/HondaAppCenter_A1.apk)
+
+That app is not part of this project. It was written and signed by S_Mike (XDA Developers) and
+all rights remain with him. SHA-256 of the file:
+`0ed61e6b6caf4648465880b97595a40c31adf6b1da8c7a8ff6b70795d1761c3a`
+
+Both APKs have the same file name, so install them one after the other, with only one of them
+on the USB stick at a time.
+
 ## Installation
 
 1. Copy `HondaAppCenter_A1.apk` to a USB stick and install it the same way as OpenDroidAuto.

@@ -77,6 +77,9 @@ Erfolgreich ist das Schreiben, wenn `getUpdateCount()` danach größer ist als v
   keyAlias, keyPassword). Ohne die Datei baut `assembleRelease` eine unsignierte APK.
 - Die signierte APK liegt im Repo unter `app/release/HondaAppCenter_A1.apk` (Wunsch: APK im Repo;
   der Ordner ist das Standardziel des Studio-Assistenten). Nach jeder Code-Änderung neu bauen und ersetzen.
+- S_Mikes Permissions-App 1.1 liegt unverändert unter `third-party/honda-permissions/HondaAppCenter_A1.apk`
+  (Wunsch des Besitzers, damit alles Nötige an einem Ort ist). Fremde App, keine bekannte Lizenz zur
+  Weitergabe: bei Einspruch von S_Mike entfernen und nur verlinken.
 
 ## Stand
 Funktioniert auf dem Radio. Bei Änderungen bitte die Build-Einstellungen oben einhalten und vor jeder
