@@ -21,7 +21,10 @@ hand. AA Sound does it with one tap.
 
 - **Mix → Exclusive:** remembers the current three sound values, then sets on / off / off.
 - **Exclusive → Mix:** restores the remembered values (default: on / on / off).
-- Tells the system that the whitelist has changed, so the new setting applies.
+- Tells the system that the whitelist has changed.
+
+The change takes effect immediately. There is no need to restart Android Auto, OpenDroidAuto or
+the head unit.
 
 | Mix | Exclusive |
 |-----|-----------|
