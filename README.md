@@ -23,7 +23,12 @@ hand. AA Sound does it with one tap.
 - **Exclusive → Mix:** restores the remembered values (default: on / on / off).
 - Tells the system that the whitelist has changed, so the new setting applies.
 
-The widget shows the current mode by colour and text. Tapping the app icon "AA Sound" toggles as
+| Mix | Exclusive |
+|-----|-----------|
+| <img src="docs/widget-mix.jpg" alt="Widget in Mix mode on the Honda Connect home screen" width="320"> | <img src="docs/widget-exclusive.jpg" alt="Widget in Exclusive mode on the Honda Connect home screen" width="320"> |
+
+The widget (below the Android Auto tile, here with the head unit set to German) shows the
+current mode by colour and text. Tapping the app icon "AA Sound" toggles as
 well, in case the launcher has no room for the widget.
 
 ## Download
