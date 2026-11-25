@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="state_exclusive">حصري · ستيريو</string>
+    <string name="state_mix">مزج · اليسار فقط</string>
+    <string name="state_unknown">انقر</string>
+    <string name="toast_exclusive">Android Auto: حصري (كلا السماعتين)</string>
+    <string name="toast_mix">Android Auto: مزج مع الراديو</string>
+    <string name="toast_error">فشل التبديل: %1$s</string>
+    <string name="error_allowed_list">تعذّرت قراءة قائمة التثبيتات المسموح بها</string>
+    <string name="error_process_list">تعذّرت قراءة قائمة العمليات</string>
+    <string name="error_no_entry">لا يوجد إدخال لـ %1$s</string>
+    <string name="error_not_applied">لم يقبل الجهاز التغيير</string>
+    <string name="error_not_in_whitelist">%1$s غير موجود في القائمة البيضاء</string>
+</resources>

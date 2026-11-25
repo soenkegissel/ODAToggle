@@ -1,0 +1,77 @@
+plugins {
+    id 'com.android.application'
+}
+
+def keystoreFile = rootProject.file('keystore.properties')
+def keystoreProps = new Properties()
+if (keystoreFile.exists()) {
+    keystoreFile.withInputStream { keystoreProps.load(it) }
+}
+
+android {
+    namespace 'com.rucksack.odatoggle'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'com.rucksack.odatoggle'
+        // Honda Connect / Fujitsu Ten Display Audio laeuft mit Android 4.0.4 (API 15)
+        minSdk 15
+        targetSdk 15   // wie OpenDroidAuto: exakt das API-Level des Radios
+        versionCode 1
+        versionName '1.0'
+    }
+
+    // Release-Signatur aus der git-ignorierten keystore.properties (storeFile, storePassword,
+    // keyAlias, keyPassword). Fehlt die Datei, entsteht eine unsignierte APK.
+    signingConfigs {
+        release {
+            if (keystoreFile.exists()) {
+                storeFile rootProject.file(keystoreProps['storeFile'])
+                storePassword keystoreProps['storePassword']
+                keyAlias keystoreProps['keyAlias']
+                keyPassword keystoreProps['keyPassword']
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            if (keystoreFile.exists()) {
+                signingConfig signingConfigs.release
+            }
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lint {
+        abortOnError false
+        // Die App ist nur für das Honda-Radio (Android 4.0.4) und nicht für Google Play.
+        disable 'ExpiredTargetSdkVersion', 'OldTargetApi'
+        checkReleaseBuilds false
+    }
+
+    // Die APK muss auf dem USB-Stick HondaAppCenter_A1.apk heissen, sonst
+    // installiert das Honda-Radio sie nicht (wie bei OpenDroidAuto).
+    applicationVariants.all { variant ->
+        variant.outputs.all {
+            outputFileName = 'HondaAppCenter_A1.apk'
+        }
+    }
+}
+
+// Bundle-Dateinamen (AAB) tragen versionName und versionCode; die APK heisst HondaAppCenter_A1.apk
+base {
+    archivesName = "ODAToggle-${android.defaultConfig.versionName}-${android.defaultConfig.versionCode}"
+}
+
+dependencies {
+    // Honda/Fujitsu-Ten-Framework (aus OpenDroidAuto, ext-libs/framework).
+    // Nur zum Kompilieren: die Klassen liegen bereits im System des Radios
+    // und duerfen NICHT mit in die APK.
+    compileOnly files('libs-compile/ada-ext-api.jar')
+}

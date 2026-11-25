@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="state_exclusive">独占 · 立体声</string>
+    <string name="state_mix">混音 · 仅左声道</string>
+    <string name="state_unknown">点按</string>
+    <string name="toast_exclusive">Android Auto：独占（两侧扬声器）</string>
+    <string name="toast_mix">Android Auto：与收音机混音</string>
+    <string name="toast_error">切换失败：%1$s</string>
+    <string name="error_allowed_list">无法读取允许安装列表</string>
+    <string name="error_process_list">无法读取进程列表</string>
+    <string name="error_no_entry">没有 %1$s 的条目</string>
+    <string name="error_not_applied">车机未接受更改</string>
+    <string name="error_not_in_whitelist">%1$s 不在白名单中</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="state_exclusive">এক্সক্লুসিভ · স্টেরিও</string>
+    <string name="state_mix">মিক্স · শুধু বাম</string>
+    <string name="state_unknown">ট্যাপ করুন</string>
+    <string name="toast_exclusive">Android Auto: এক্সক্লুসিভ (উভয় স্পিকার)</string>
+    <string name="toast_mix">Android Auto: রেডিওর সাথে মিক্স</string>
+    <string name="toast_error">পরিবর্তন ব্যর্থ হয়েছে: %1$s</string>
+    <string name="error_allowed_list">অনুমোদিত ইনস্টলেশনের তালিকা পড়া যায়নি</string>
+    <string name="error_process_list">প্রসেস তালিকা পড়া যায়নি</string>
+    <string name="error_no_entry">%1$s-এর জন্য কোনো এন্ট্রি নেই</string>
+    <string name="error_not_applied">হেড ইউনিট পরিবর্তনটি গ্রহণ করেনি</string>
+    <string name="error_not_in_whitelist">%1$s হোয়াইটলিস্টে নেই</string>
+</resources>

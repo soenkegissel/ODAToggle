@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="state_exclusive">Exclusivo · Estéreo</string>
+    <string name="state_mix">Mezcla · solo izquierda</string>
+    <string name="state_unknown">Tocar</string>
+    <string name="toast_exclusive">Android Auto: exclusivo (ambos altavoces)</string>
+    <string name="toast_mix">Android Auto: mezclado con la radio</string>
+    <string name="toast_error">Error al cambiar: %1$s</string>
+    <string name="error_allowed_list">No se pudo leer la lista de instalaciones permitidas</string>
+    <string name="error_process_list">No se pudo leer la lista de procesos</string>
+    <string name="error_no_entry">No hay ninguna entrada para %1$s</string>
+    <string name="error_not_applied">El equipo no aceptó el cambio</string>
+    <string name="error_not_in_whitelist">%1$s no está en la lista blanca</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="state_exclusive">एक्सक्लूसिव · स्टीरियो</string>
+    <string name="state_mix">मिक्स · केवल बायाँ</string>
+    <string name="state_unknown">टैप करें</string>
+    <string name="toast_exclusive">Android Auto: एक्सक्लूसिव (दोनों स्पीकर)</string>
+    <string name="toast_mix">Android Auto: रेडियो के साथ मिक्स</string>
+    <string name="toast_error">बदलना विफल रहा: %1$s</string>
+    <string name="error_allowed_list">अनुमत इंस्टॉलेशन की सूची पढ़ी नहीं जा सकी</string>
+    <string name="error_process_list">प्रोसेस सूची पढ़ी नहीं जा सकी</string>
+    <string name="error_no_entry">%1$s के लिए कोई प्रविष्टि नहीं है</string>
+    <string name="error_not_applied">हेड यूनिट ने बदलाव स्वीकार नहीं किया</string>
+    <string name="error_not_in_whitelist">%1$s व्हाइटलिस्ट में नहीं है</string>
+</resources>

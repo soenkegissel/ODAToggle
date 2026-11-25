@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">AA Sound</string>
+    <string name="widget_name" translatable="false">Android Auto Sound</string>
+    <string name="widget_title" translatable="false">Android Auto</string>
+    <string name="state_exclusive">Exclusive · Stereo</string>
+    <string name="state_mix">Mix · left only</string>
+    <string name="state_unknown">Tap</string>
+    <string name="toast_exclusive">Android Auto: exclusive (both speakers)</string>
+    <string name="toast_mix">Android Auto: mixed with radio</string>
+    <string name="toast_error">Switching failed: %1$s</string>
+    <string name="error_allowed_list">The list of allowed installations could not be read</string>
+    <string name="error_process_list">The process list could not be read</string>
+    <string name="error_no_entry">No entry for %1$s</string>
+    <string name="error_not_applied">The head unit did not accept the change</string>
+    <string name="error_not_in_whitelist">%1$s is not in the whitelist</string>
+</resources>

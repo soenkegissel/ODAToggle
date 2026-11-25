@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="state_exclusive">Exclusif · Stéréo</string>
+    <string name="state_mix">Mixte · gauche seule</string>
+    <string name="state_unknown">Appuyer</string>
+    <string name="toast_exclusive">Android Auto : exclusif (les deux haut-parleurs)</string>
+    <string name="toast_mix">Android Auto : mixé avec la radio</string>
+    <string name="toast_error">Échec du changement : %1$s</string>
+    <string name="error_allowed_list">Impossible de lire la liste des installations autorisées</string>
+    <string name="error_process_list">Impossible de lire la liste des processus</string>
+    <string name="error_no_entry">Aucune entrée pour %1$s</string>
+    <string name="error_not_applied">L\'autoradio n\'a pas accepté la modification</string>
+    <string name="error_not_in_whitelist">%1$s ne figure pas dans la liste blanche</string>
+</resources>

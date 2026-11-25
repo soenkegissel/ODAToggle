@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="state_exclusive">ایکسکلوسِو · سٹیریو</string>
+    <string name="state_mix">مکس · صرف بایاں</string>
+    <string name="state_unknown">ٹیپ کریں</string>
+    <string name="toast_exclusive">Android Auto: ایکسکلوسِو (دونوں اسپیکر)</string>
+    <string name="toast_mix">Android Auto: ریڈیو کے ساتھ مکس</string>
+    <string name="toast_error">تبدیلی ناکام رہی: %1$s</string>
+    <string name="error_allowed_list">اجازت یافتہ انسٹالیشنز کی فہرست نہیں پڑھی جا سکی</string>
+    <string name="error_process_list">پروسیس کی فہرست نہیں پڑھی جا سکی</string>
+    <string name="error_no_entry">%1$s کے لیے کوئی اندراج نہیں ہے</string>
+    <string name="error_not_applied">ہیڈ یونٹ نے تبدیلی قبول نہیں کی</string>
+    <string name="error_not_in_whitelist">%1$s وائٹ لسٹ میں نہیں ہے</string>
+</resources>

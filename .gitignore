@@ -1,0 +1,13 @@
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+# Signatur-Geheimnisse niemals einchecken
+keystore.properties
+*.jks
+*.keystore
+*.p12
+# Studio-Ausgabe: nur die fertige APK gehoert ins Repo
+app/release/*
+!app/release/HondaAppCenter_A1.apk

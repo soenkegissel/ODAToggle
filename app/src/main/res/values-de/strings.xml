@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="state_exclusive">Exklusiv · Stereo</string>
+    <string name="state_mix">Mix · nur links</string>
+    <string name="state_unknown">Antippen</string>
+    <string name="toast_exclusive">Android Auto: exklusiv (beide Lautsprecher)</string>
+    <string name="toast_mix">Android Auto: Mix mit Radio</string>
+    <string name="toast_error">Umschalten fehlgeschlagen: %1$s</string>
+    <string name="error_allowed_list">Die Liste der erlaubten Installationen konnte nicht gelesen werden</string>
+    <string name="error_process_list">Die Prozessliste konnte nicht gelesen werden</string>
+    <string name="error_no_entry">Kein Eintrag für %1$s</string>
+    <string name="error_not_applied">Das Radio hat die Änderung nicht übernommen</string>
+    <string name="error_not_in_whitelist">%1$s steht nicht in der Whitelist</string>
+</resources>

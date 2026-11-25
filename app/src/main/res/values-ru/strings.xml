@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="state_exclusive">Эксклюзивно · Стерео</string>
+    <string name="state_mix">Микс · только слева</string>
+    <string name="state_unknown">Нажмите</string>
+    <string name="toast_exclusive">Android Auto: эксклюзивно (оба динамика)</string>
+    <string name="toast_mix">Android Auto: вместе с радио</string>
+    <string name="toast_error">Не удалось переключить: %1$s</string>
+    <string name="error_allowed_list">Не удалось прочитать список разрешённых установок</string>
+    <string name="error_process_list">Не удалось прочитать список процессов</string>
+    <string name="error_no_entry">Нет записи для %1$s</string>
+    <string name="error_not_applied">Магнитола не приняла изменение</string>
+    <string name="error_not_in_whitelist">%1$s нет в белом списке</string>
+</resources>
